@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "networkInterfaceName": {
+            "value": "centos7hilleleis850"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/301c82ea-1da6-4937-b12b-57be61aec097/resourceGroups/hillel-eis-resourcegroup/providers/Microsoft.Network/networkSecurityGroups/helleleis-nsg"
+        },
+        "subnetName": {
+            "value": "hillel-eis-subnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/301c82ea-1da6-4937-b12b-57be61aec097/resourceGroups/hillel-eis-resourcegroup/providers/Microsoft.Network/virtualNetworks/hillel-eis-virtualnetwork"
+        },
+        "publicIpAddressName": {
+            "value": "Centos7HillelEIS-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "Centos7HillelEIS"
+        },
+        "virtualMachineComputerName": {
+            "value": "Centos7HillelEIS"
+        },
+        "virtualMachineRG": {
+            "value": "hillel-eis-resourcegroup"
+        },
+        "diskNameSalt": {
+            "value": "20210830211502"
+        },
+        "storageAccountName": {
+            "value": "hilleleisresourcegroupdi"
+        },
+        "storageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "storageAccountKind": {
+            "value": "Storage"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1s"
+        },
+        "adminUsername": {
+            "value": "hillel"
+        },
+        "adminPassword": {
+            "value": null
+        }
+    }
+}
